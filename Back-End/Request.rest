@@ -1,0 +1,11 @@
+GET http://localhost:9000
+
+###
+
+POST http://localhost:4000/signup
+Content-Type: application/json
+
+{
+    "username": "user",
+    "password": "password"
+}
